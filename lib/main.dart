@@ -38,7 +38,7 @@ class MyHomePageState extends State {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       bool clean = false; // データベースを削除してから実行するかどうか
       bool raw = true; // raw系の関数を使用するかどうか
 
